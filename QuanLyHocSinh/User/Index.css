@@ -69,6 +69,22 @@ main {
     color: #FFF;
 }
 
+.private {
+    background-color: antiquewhite;
+}
+
+h4 {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.submenu {
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: 1px dotted #333;
+}
 .content {
     width: 75%;
     margin-left: 20px;
