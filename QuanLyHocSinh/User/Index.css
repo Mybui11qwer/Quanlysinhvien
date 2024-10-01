@@ -78,13 +78,46 @@ h4 {
     padding-left: 10px;
 }
 
-.submenu {
-    height: 50px;
+.profile {
+    height: 100px;
     margin-top: 10px;
     margin-left: 10px;
-    padding-left: 10px;
+    padding-left: 20px;
     border-left: 1px dotted #333;
 }
+
+.profile a{
+    text-decoration: none;
+    color: black;
+}
+
+.check-info {
+    height: 350px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-left: 20px;
+    border-left: 1px dotted #333;
+}
+
+.check-info a{
+    text-decoration: none;
+    color: black;
+}
+
+.function-online {
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-left: 20px;
+    border-left: 1px dotted #333;
+}
+
+.function-online a{
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+}
+
 .content {
     width: 75%;
     margin-left: 20px;
@@ -97,4 +130,11 @@ h4 {
     padding: 13px 30px;
     background-color: #012E67;
     color: #FFF;
+}
+
+footer{
+    margin-top: 5px;
+    background-color: #012E67;
+    color: white;
+    height: 150px;
 }
