@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kết quả học tập</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="Image/logoH.png" alt="Huflit Logo">
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Menu (Blue Bar) -->
+    <nav class="menu-bar">
+        <ul>
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="#">Tra cứu TKB</a></li>
+            <li><a href="#">Tra cứu văn bằng</a></li>
+            <li><a href="#">Mẫu đơn sinh viên</a></li>
+            <li><a href="#">Tra cứu tuyển sinh</a></li>
+            <li><a href="#">Helpdesk</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Area -->
+    <div class="main-container">
+        <div class="blue-box">
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <h3>Chức năng</h3>
+                <ul>
+                    <li><a href="#">Trang cá nhân</a></li>
+                    <li><a href="#">Thông báo (4)</a></li>
+                    <li><a href="#">Hướng dẫn sử dụng</a></li>
+                </ul>
+                <h3>Tra cứu thông tin</h3>
+                <ul>
+                    <li><a href="#">Chương trình đào tạo</a></li>
+                    <li><a href="#">Lịch học</a></li>
+                    <li><a href="#">Lịch thi</a></li>
+                    <li><a href="#">Quyết định sinh viên</a></li>
+                    <li><a href="#">Kết quả rèn luyện</a></li>
+                    <li><a href="#">Kết quả học tập</a></li>
+                    <li><a href="#">Tài chính sinh viên</a></li>
+                    <li><a href="#">Xem chi tiết hóa đơn</a></li>
+                    <li><a href="#">Học bổng, Chính sách, Miễn giảm, Trợ cấp</a></li>
+                    <li><a href="#">Xem kết quả đăng ký học phần</a></li>
+                </ul>
+                <h3>Chức năng trực tuyến</h3>
+                <ul>
+                    <li><a href="#">Đăng ký học phần</a></li>
+                    <li><a href="#">Đánh giá điểm rèn luyện</a></li>
+                    <li><a href="#">Thủ tục trực tuyến</a></li>
+                    <li><a href="#">Hoạt động rèn luyện</a></li>
+                    <li><a href="#">Xin bảng điểm</a></li>
+                    <li><a href="#">Ngoại trú sinh viên</a></li>
+                    <li><a href="#">Liên hệ - góp ý (0)</a></li>
+                </ul>
+            </aside>
+
+            <!-- Right Content (Study Results) -->
+            <main class="content">
+                <!-- Filter Options -->
+                <div class="filter-options">
+                    <label for="program">Chương trình đào tạo:</label>
+                    <select id="program">
+                        <option value="all">Công nghệ phần mềm</option>
+                    </select>
+                    <label for="semester">Học kỳ:</label>
+                    <select id="semester">
+                        <option value="all">Tất cả</option>
+                        <option value="all">Học kỳ 1</option>
+                        <option value="all">Học kỳ 2</option>
+                        <option value="all">Học kỳ 3</option>
+                    </select>
+                    <input type="radio" id="tcbt" name="view" checked>
+                    <label for="tcbt">Xem điểm TCBT</label>
+                    <input type="radio" id="all" name="view">
+                    <label for="all">Xem tất cả</label>
+                </div>
+
+                <!-- Table (Study Results) -->
+                <table class="results-table">
+                    <thead>
+                        <tr>
+                            <th>STT</th>
+                            <th>Mã học phần</th>
+                            <th>Tên học phần</th>
+                            <th>Tín chỉ</th>
+                            <th>Điểm hệ 10</th>
+                            <th>Điểm hệ 4</th>
+                            <th>Điểm chữ</th>
+                            <th>Kết quả</th>
+                            <th>Chi tiết</th>
+                            <th>Ghi chú</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="10"><b>Năm học: 2022-2023 - Học kỳ: HK01</b></td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>1010443</td>
+                            <td>Triết học Mác - Lênin</td>
+                            <td>3.0</td>
+                            <td>5.1</td>
+                            <td>1.50</td>
+                            <td>D+</td>
+                            <td>✔</td>
+                            <td><a href="#">Chi tiết</a></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>1010484</td>
+                            <td>Tiếng Anh cơ bản 1</td>
+                            <td>4.0</td>
+                            <td>7.5</td>
+                            <td>3.00</td>
+                            <td>B</td>
+                            <td>✔</td>
+                            <td><a href="#">Chi tiết</a></td>
+                            <td></td>
+                        </tr>
+                        <tr></tr>
+                            <td>3</td>
+                            <td>1010484</td>
+                            <td>Tiếng Anh cơ bản 1</td>
+                            <td>4.0</td>
+                            <td>7.5</td>
+                            <td>3.00</td>
+                            <td>B</td>
+                            <td>✔</td>
+                            <td><a href="#">Chi tiết</a></td>
+                            <td></td>
+                        </tr>
+                        <tr></tr>
+                            <td>4</td>
+                            <td>1010484</td>
+                            <td>Tiếng Anh cơ bản 1</td>
+                            <td>4.0</td>
+                            <td>7.5</td>
+                            <td>3.00</td>
+                            <td>B</td>
+                            <td>✔</td>
+                            <td><a href="#">Chi tiết</a></td>
+                            <td></td>
+                        </tr>
+                        <tr></tr>
+                            <td>5</td>
+                            <td>1010484</td>
+                            <td>Tiếng Anh cơ bản 1</td>
+                            <td>4.0</td>
+                            <td>7.5</td>
+                            <td>3.00</td>
+                            <td>B</td>
+                            <td>✔</td>
+                            <td><a href="#">Chi tiết</a></td>
+                            <td></td>
+                        </tr>
+                        <!-- Thêm nhiều dòng hơn ở đây nếu cần -->
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td colspan="10"><b>Năm học: 2022-2023 - Học kỳ: HK02</b></td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>1010443</td>
+                            <td>Triết học Mác - Lênin</td>
+                            <td>3.0</td>
+                            <td>5.1</td>
+                            <td>1.50</td>
+                            <td>D+</td>
+                            <td>✔</td>
+                            <td><a href="#">Chi tiết</a></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>1010484</td>
+                            <td>Tiếng Anh cơ bản 1</td>
+                            <td>4.0</td>
+                            <td>7.5</td>
+                            <td>3.00</td>
+                            <td>B</td>
+                            <td>✔</td>
+                            <td><a href="#">Chi tiết</a></td>
+                            <td></td>
+                        </tr>
+                        <tr></tr>
+                            <td>3</td>
+                            <td>1010484</td>
+                            <td>Tiếng Anh cơ bản 1</td>
+                            <td>4.0</td>
+                            <td>7.5</td>
+                            <td>3.00</td>
+                            <td>B</td>
+                            <td>✔</td>
+                            <td><a href="#">Chi tiết</a></td>
+                            <td></td>
+                        </tr>
+                        <tr></tr>
+                            <td>4</td>
+                            <td>1010484</td>
+                            <td>Tiếng Anh cơ bản 1</td>
+                            <td>4.0</td>
+                            <td>7.5</td>
+                            <td>3.00</td>
+                            <td>B</td>
+                            <td>✔</td>
+                            <td><a href="#">Chi tiết</a></td>
+                            <td></td>
+                        </tr>
+                        <tr></tr>
+                            <td>5</td>
+                            <td>1010484</td>
+                            <td>Tiếng Anh cơ bản 1</td>
+                            <td>4.0</td>
+                            <td>7.5</td>
+                            <td>3.00</td>
+                            <td>B</td>
+                            <td>✔</td>
+                            <td><a href="#">Chi tiết</a></td>
+                            <td></td>
+                        </tr>
+                        <!-- Thêm nhiều dòng hơn ở đây nếu cần -->
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td colspan="10"><b>Năm học: 2023-2024 - Học kỳ: HK01</b></td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>1010443</td>
+                            <td>Triết học Mác - Lênin</td>
+                            <td>3.0</td>
+                            <td>5.1</td>
+                            <td>1.50</td>
+                            <td>D+</td>
+                            <td>✔</td>
+                            <td><a href="#">Chi tiết</a></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>1010484</td>
+                            <td>Tiếng Anh cơ bản 1</td>
+                            <td>4.0</td>
+                            <td>7.5</td>
+                            <td>3.00</td>
+                            <td>B</td>
+                            <td>✔</td>
+                            <td><a href="#">Chi tiết</a></td>
+                            <td></td>
+                        </tr>
+                        <tr></tr>
+                            <td>3</td>
+                            <td>1010484</td>
+                            <td>Tiếng Anh cơ bản 1</td>
+                            <td>4.0</td>
+                            <td>7.5</td>
+                            <td>3.00</td>
+                            <td>B</td>
+                            <td>✔</td>
+                            <td><a href="#">Chi tiết</a></td>
+                            <td></td>
+                        </tr>
+                        <tr></tr>
+                            <td>4</td>
+                            <td>1010484</td>
+                            <td>Tiếng Anh cơ bản 1</td>
+                            <td>4.0</td>
+                            <td>7.5</td>
+                            <td>3.00</td>
+                            <td>B</td>
+                            <td>✔</td>
+                            <td><a href="#">Chi tiết</a></td>
+                            <td></td>
+                        </tr>
+                        <tr></tr>
+                            <td>5</td>
+                            <td>1010484</td>
+                            <td>Tiếng Anh cơ bản 1</td>
+                            <td>4.0</td>
+                            <td>7.5</td>
+                            <td>3.00</td>
+                            <td>B</td>
+                            <td>✔</td>
+                            <td><a href="#">Chi tiết</a></td>
+                            <td></td>
+                        </tr>
+                        <!-- Thêm nhiều dòng hơn ở đây nếu cần -->
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td colspan="10"><b>Năm học: 2023-2024 - Học kỳ: HK02</b></td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>1010443</td>
+                            <td>Triết học Mác - Lênin</td>
+                            <td>3.0</td>
+                            <td>5.1</td>
+                            <td>1.50</td>
+                            <td>D+</td>
+                            <td>✔</td>
+                            <td><a href="#">Chi tiết</a></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>1010484</td>
+                            <td>Tiếng Anh cơ bản 1</td>
+                            <td>4.0</td>
+                            <td>7.5</td>
+                            <td>3.00</td>
+                            <td>B</td>
+                            <td>✔</td>
+                            <td><a href="#">Chi tiết</a></td>
+                            <td></td>
+                        </tr>
+                        <tr></tr>
+                            <td>3</td>
+                            <td>1010484</td>
+                            <td>Tiếng Anh cơ bản 1</td>
+                            <td>4.0</td>
+                            <td>7.5</td>
+                            <td>3.00</td>
+                            <td>B</td>
+                            <td>✔</td>
+                            <td><a href="#">Chi tiết</a></td>
+                            <td></td>
+                        </tr>
+                        <tr></tr>
+                            <td>4</td>
+                            <td>1010484</td>
+                            <td>Tiếng Anh cơ bản 1</td>
+                            <td>4.0</td>
+                            <td>7.5</td>
+                            <td>3.00</td>
+                            <td>B</td>
+                            <td>✔</td>
+                            <td><a href="#">Chi tiết</a></td>
+                            <td></td>
+                        </tr>
+                        <tr></tr>
+                            <td>5</td>
+                            <td>1010484</td>
+                            <td>Tiếng Anh cơ bản 1</td>
+                            <td>4.0</td>
+                            <td>7.5</td>
+                            <td>3.00</td>
+                            <td>B</td>
+                            <td>✔</td>
+                            <td><a href="#">Chi tiết</a></td>
+                            <td></td>
+                        </tr>
+                        <!-- Thêm nhiều dòng hơn ở đây nếu cần -->
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td colspan="10"><b>Năm học: 2023-2024 - Học kỳ: HK03</b></td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>1010443</td>
+                            <td>Triết học Mác - Lênin</td>
+                            <td>3.0</td>
+                            <td>5.1</td>
+                            <td>1.50</td>
+                            <td>D+</td>
+                            <td>✔</td>
+                            <td><a href="#">Chi tiết</a></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>1010484</td>
+                            <td>Tiếng Anh cơ bản 1</td>
+                            <td>4.0</td>
+                            <td>7.5</td>
+                            <td>3.00</td>
+                            <td>B</td>
+                            <td>✔</td>
+                            <td><a href="#">Chi tiết</a></td>
+                            <td></td>
+                        </tr>
+                        <tr></tr>
+                            <td>3</td>
+                            <td>1010484</td>
+                            <td>Tiếng Anh cơ bản 1</td>
+                            <td>4.0</td>
+                            <td>7.5</td>
+                            <td>3.00</td>
+                            <td>B</td>
+                            <td>✔</td>
+                            <td><a href="#">Chi tiết</a></td>
+                            <td></td>
+                        </tr>
+                        <tr></tr>
+                            <td>4</td>
+                            <td>1010484</td>
+                            <td>Tiếng Anh cơ bản 1</td>
+                            <td>4.0</td>
+                            <td>7.5</td>
+                            <td>3.00</td>
+                            <td>B</td>
+                            <td>✔</td>
+                            <td><a href="#">Chi tiết</a></td>
+                            <td></td>
+                        </tr>
+                        <tr></tr>
+                            <td>5</td>
+                            <td>1010484</td>
+                            <td>Tiếng Anh cơ bản 1</td>
+                            <td>4.0</td>
+                            <td>7.5</td>
+                            <td>3.00</td>
+                            <td>B</td>
+                            <td>✔</td>
+                            <td><a href="#">Chi tiết</a></td>
+                            <td></td>
+                        </tr>
+                        <!-- Thêm nhiều dòng hơn ở đây nếu cần -->
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td colspan="10"><b>Năm học: 2024-2025 - Học kỳ: HK01</b></td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>1010443</td>
+                            <td>Triết học Mác - Lênin</td>
+                            <td>3.0</td>
+                            <td>5.1</td>
+                            <td>1.50</td>
+                            <td>D+</td>
+                            <td>✔</td>
+                            <td><a href="#">Chi tiết</a></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>1010484</td>
+                            <td>Tiếng Anh cơ bản 1</td>
+                            <td>4.0</td>
+                            <td>7.5</td>
+                            <td>3.00</td>
+                            <td>B</td>
+                            <td>✔</td>
+                            <td><a href="#">Chi tiết</a></td>
+                            <td></td>
+                        </tr>
+                        <tr></tr>
+                            <td>3</td>
+                            <td>1010484</td>
+                            <td>Tiếng Anh cơ bản 1</td>
+                            <td>4.0</td>
+                            <td>7.5</td>
+                            <td>3.00</td>
+                            <td>B</td>
+                            <td>✔</td>
+                            <td><a href="#">Chi tiết</a></td>
+                            <td></td>
+                        </tr>
+                        <tr></tr>
+                            <td>4</td>
+                            <td>1010484</td>
+                            <td>Tiếng Anh cơ bản 1</td>
+                            <td>4.0</td>
+                            <td>7.5</td>
+                            <td>3.00</td>
+                            <td>B</td>
+                            <td>✔</td>
+                            <td><a href="#">Chi tiết</a></td>
+                            <td></td>
+                        </tr>
+                        <tr></tr>
+                            <td>5</td>
+                            <td>1010484</td>
+                            <td>Tiếng Anh cơ bản 1</td>
+                            <td>4.0</td>
+                            <td>7.5</td>
+                            <td>3.00</td>
+                            <td>B</td>
+                            <td>✔</td>
+                            <td><a href="#">Chi tiết</a></td>
+                            <td></td>
+                        </tr>
+                        <!-- Thêm nhiều dòng hơn ở đây nếu cần -->
+                    </tbody>
+                </table>
+
+                <!-- Summary Section -->
+                <div class="summary">
+                    <p>- Tổng số tín chỉ đạt: 19</p>
+                    <p>- Điểm trung bình học kỳ: 4.00</p>
+                    <p>- Điểm rèn luyện: 59.00 | Xếp loại (RL): Trung bình</p>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- Footer -->
+<footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <p>© Copyright 2024 huflit.edu.vn. All rights reserved</p>
+        </div>
+        <div class="footer-section">
+            <h4>LIÊN KẾT</h4>
+            <ul>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Thư viện</a></li>
+                <li><a href="#">Sau đại học</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>TRƯỜNG ĐẠI HỌC NGOẠI NGỮ - TIN HỌC THÀNH PHỐ HỒ CHÍ MINH (HUFLIT)</h4>
+            <p>828 Sư Vạn Hạnh, Phường 13, Quận 10, TP. Hồ Chí Minh</p>
+            <p><i class="fas fa-phone"></i>(+84 28)38 632 052 - Fax:(+84 28)38 650 991</p>
+            <p><i class="fas fa-envelope"></i>contact@huflit.edu.vn</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
