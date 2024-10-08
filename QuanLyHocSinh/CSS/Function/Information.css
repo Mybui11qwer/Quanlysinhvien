@@ -1,0 +1,31 @@
+.Information-frame .infomation-table .col-md-1 .row-col-11{
+    width: 400px;
+    height: 220px;
+}
+
+.Information-frame .infomation-table th{
+    color: red;
+    font-size: large;
+    font-weight: bold;
+}
+
+.Information-frame .infomation-table th,td{
+    border-left: none;
+    border-right: none;
+}
+
+.Information-frame .infomation-table a{
+    color: blue;
+    border: 1px solid blue;
+    padding: 5px;
+    cursor: not-allowed;
+}
+
+.Information-frame .infomation-table .row-col-12{
+    width: 400px;
+}
+
+.Information-frame .infomation-table .row-col-21{
+    width: 400px;
+    height: 40px;
+}
