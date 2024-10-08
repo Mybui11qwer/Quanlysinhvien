@@ -1,0 +1,48 @@
+.content-form{
+    padding: 10px;
+}
+.content-form .Notification-form{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.content-form .Notification-form .table-title{
+    background-color: burlywood;
+    height: 5vh;
+}
+.content-form .Notification-form .table-title .tilte-notification{
+    width: 700px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.content-form .Notification-form .table-title .title-sender{
+    width: 300px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.content-form .Notification-form .table-title .tilte-time{
+    width: 200px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.content-form .Notification-form .table-content{
+    height: 3vh;
+}
+
+.content-form .Notification-form .table-content .content-notification{
+    width: 700px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.content-form .Notification-form .table-content .content-sender{
+    width: 300px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+.content-form .Notification-form .table-content .content-time{
+    width: 200px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}

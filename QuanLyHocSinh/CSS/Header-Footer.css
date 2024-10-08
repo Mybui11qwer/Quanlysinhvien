@@ -1,0 +1,32 @@
+header {
+    background-color: antiquewhite;
+    color: white;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 20px 30px;
+}
+
+.logo img {
+    margin-left: 15px;
+    max-width: 100%;
+    max-height: 180px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    background-color: #012E67;
+    color: white;
+    height: 150px;
+}

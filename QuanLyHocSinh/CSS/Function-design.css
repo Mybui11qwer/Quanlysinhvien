@@ -9,24 +9,6 @@ body {
     background-color: #FFF;
 }
 
-header {
-    background-color: yellow;
-    color: white;
-    height: 150px;
-}
-
-.header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-    padding: 20px 30px;
-}
-
-.logo img {
-    max-height: 100px;
-}
-
 .user-info {
     font-size: 18px;
     font-weight: bold;
@@ -57,7 +39,7 @@ main {
 }
 
 .sidebar {
-    width: 25%;
+    width: 120%;
 }
 
 
@@ -119,8 +101,9 @@ h4 {
 }
 
 .content {
-    width: 75%;
-    margin-left: 20px;
+    width: 100%;
+    margin-left: 60px;
+    border-left: 1px solid gray;
 }
 
 
@@ -130,11 +113,4 @@ h4 {
     padding: 13px 30px;
     background-color: #012E67;
     color: #FFF;
-}
-
-footer{
-    margin-top: 5px;
-    background-color: #012E67;
-    color: white;
-    height: 150px;
 }
