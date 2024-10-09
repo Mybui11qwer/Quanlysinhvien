@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.login-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+.logo img {
+    width: 210px;
+    height: 130px;
+    margin-bottom: 15px;
+}
+
+.logo h4 {
+    color: red;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.logo p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.ForgetPass{
+    color: #003366;
+    font: bolder;
+    text-decoration: none;
+}
+
+form button:hover {
+    background-color: #002244;
+}
+
+.office-buttons {
+    margin-top: 20px;
+}
+
+.office-buttons button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.office-student {
+    background-color: #d32f2f;
+}
+
+.office-professor {
+    background-color: #d32f2f;
+}
+
+.office-buttons button:hover {
+    background-color: #b71c1c;
+}

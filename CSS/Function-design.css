@@ -34,14 +34,14 @@ body {
 
 main {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 22px;
     background-color: #FFF;
 }
 
 .sidebar {
-    width: 120%;
+    width: 16vw;
 }
-
 
 .sidebar h3 {
     font-weight: bold;
@@ -52,6 +52,7 @@ main {
 }
 
 .private {
+    width: 100%;
     background-color: antiquewhite;
 }
 
@@ -61,6 +62,7 @@ h4 {
 }
 
 .profile {
+    max-width: 350px;
     height: 100px;
     margin-top: 10px;
     margin-left: 10px;
@@ -101,8 +103,8 @@ h4 {
 }
 
 .content {
-    width: 100%;
-    margin-left: 60px;
+    flex-grow: 1;
+    margin-left: 50px;
     max-height: max-content;
     border-left: 1px solid gray;
 }

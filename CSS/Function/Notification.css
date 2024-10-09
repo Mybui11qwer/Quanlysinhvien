@@ -1,0 +1,35 @@
+.content-form{
+    width: 100%;
+    height: max-content;
+    padding: 10px;
+}
+.content-form .Notification-form{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.content-form .Notification-form .table-title{
+    background-color: burlywood;
+    height: 5vh;
+}
+.content-form .Notification-form .table-title .tilte-notification, .content-notification{
+    width: 60%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.content-form .Notification-form .table-title .title-sender, .content-sender{
+    width: 30%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+.content-form .Notification-form .table-title .tilte-time, .content-time{
+    width: 300px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.content-form .Notification-form .table-content{
+    height: 3vh;
+    flex-wrap: wrap;
+}
