@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Header */
+#header1 {
+    background-color: #003b7f;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+/* Container chính */
+.container {
+    display: flex;
+    flex-direction: row; /* Đặt các cột nằm ngang */
+    justify-content: flex-start; /* Bố trí sát lề trái */
+    max-width: 1200px;
+    margin: 20px auto; /* Căn giữa container */
+    padding: 0;
+}
+
+/* Cột tin tức */
+.news-column {
+    width: 373px; /* Chiều ngang cụ thể cho cột tin tức */
+    margin-right: 20px; /* Tạo khoảng cách với cột kế bên */
+}
+
+.news-column h3 {
+    background-color: #ffd700;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.news-column ul {
+    list-style: none;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+.news-column ul li {
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 5px;
+}
+
+.news-column ul li a {
+    text-decoration: none;
+    color: #003b7f;
+}
+
+.news-column ul li span {
+    font-size: 12px;
+    color: gray;
+    float: right;
+}
+
+/* Cột thông báo chung */
+.notification-column {
+    width: 1098px; /* Chiều ngang cụ thể cho cột thông báo chung */
+}
+
+.notification-column h3 {
+    background-color: #003b7f;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.notification-column ul {
+    list-style: none;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    height: calc(100% - 40px); /* Đảm bảo chiều cao danh sách phù hợp với chiều cao cột */
+    overflow-y: auto; /* Tạo thanh cuộn nếu danh sách quá dài */
+}
+
+.notification-column ul li {
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 5px;
+}
+
+.notification-column ul li a {
+    text-decoration: none;
+    color: #003b7f;
+}
+
+.notification-column ul li span {
+    font-size: 12px;
+    color: gray;
+    float: right;
+}
+
+/* Footer */
+footer {
+    background-color: #001f4d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 90%;
+    max-width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* Phần tiêu đề 'Công nghệ phần mềm' */
+.program-title {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+/* Chỉnh sửa cho bảng 'Chương trình đào tạo' */
+.container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.container table, 
+.container th, 
+.container td {
+    border: 1px solid black;
+}
+
+.container th, 
+.container td {
+    padding: 8px;
+    text-align: left;
+}
+
+.container th {
+    background-color: #faebd7;
+}
+
+/* Footer chung */
+#footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #001f4d;
+    color: white;
+}
