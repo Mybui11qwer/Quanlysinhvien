@@ -1,7 +1,10 @@
-var express = require('express');
-var app = express();
-var cookieParser = require('cookie-parser')
-//var router = express.Router();
+//Server.js
+
+const express = require('express');
+const app = express();
+var cookieParser = require('cookie-parser');
+var router = express.Router();
+const path = require('path');
 //var fileUpload = require('express-fileupload')
 //var tempFileDir = "/public/data";
 var json2xls = require('json2xls');
@@ -24,7 +27,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 const authRouter = require('./Routers/Login');
-//const userRouter = require('./routers/user');
+//const userRouter = require('./Routers/User');
 //const registerRouter = require('./routers/register');
 //const classRouter = require('./routers/class');
 //const chatRouter = require('./routers/chat');
@@ -54,13 +57,11 @@ app.use(authRouter);
 //app.use(subjectRouter);
 //app.use(semesterRouter);
 //app.use(adminRouter);
-(async () => {
-    await DBConnection(); // Call the DBConnection function directly
-    var server = app.listen(3000, function () {
-        var host = server.address().address;
-        var port = server.address().port;
-        console.log("Node.js is listening with: http://localhost:", host, port);
-    });
-  //serverWS.listen(5000);
-  //var chatConnection = new IOConnection(serverWS);
-})()
+
+app.use(express.static(path.join(__dirname, '..', 'Client')));
+
+const PORT = 5001;
+
+app.listen(PORT, () => {
+  console.log(`Server is running on http://localhost:${PORT}`);
+});
