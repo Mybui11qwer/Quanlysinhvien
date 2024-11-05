@@ -7,8 +7,12 @@
     <ul>
         <li><a href="#">Trang chủ</a></li>
         <li><a href="#">Thanh toán học phí</a></li>
-        <li><a href="/User/Login.html">
-            <%= user ? user.MSSV : 'Login' %>
-        </a></li>
+        <li><a href="/User/Login.html"><%= mssv %></a></li>
     </ul>
 </nav>
+<script>
+    app.get('/User/Index.html', (req, res) => {
+    const mssv = req.session.MSSV || 'Login';
+    res.render('index', { mssv }); // Assuming you're using a templating engine
+});
+</script>

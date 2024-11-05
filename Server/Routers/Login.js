@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const authRouter = require("express").Router();
 const connectDB = require('./DBConnection');
+const userRouter = require('./User');
 
 const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -24,6 +25,7 @@ authRouter.post('/User/Login.html', async (req, res) => {
     // Tìm kiếm người dùng trong cơ sở dữ liệu
     const user = await User.findOne({ MSSV, Password });
     if (user) {
+        req.session.MSSV = MSSV; 
         // Nếu đăng nhập thành công, chuyển hướng đến trang index.html
         console.log("Đăng nhập thành công");
         res.redirect('/User/Index.html');

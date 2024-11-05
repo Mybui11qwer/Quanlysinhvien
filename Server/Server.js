@@ -1,10 +1,10 @@
 //Server.js
-
 const express = require('express');
 const app = express();
 var cookieParser = require('cookie-parser');
 var router = express.Router();
 const path = require('path');
+const session = require('express-session');
 //var fileUpload = require('express-fileupload')
 //var tempFileDir = "/public/data";
 var json2xls = require('json2xls');
@@ -26,8 +26,16 @@ app.use(express.urlencoded({ extended: true }))
 app.use(express.json());
 app.use(cookieParser());
 
+
+app.use(session({
+  secret: 'your-secret-key', // Change this to a secure key
+  resave: false,
+  saveUninitialized: true,
+  cookie: { secure: false } // Set secure to true if using HTTPS
+}));
+
 const authRouter = require('./Routers/Login');
-//const userRouter = require('./Routers/User');
+const userRouter = require('./Routers/User');
 //const registerRouter = require('./routers/register');
 //const classRouter = require('./routers/class');
 //const chatRouter = require('./routers/chat');
@@ -46,9 +54,8 @@ app.use((req, res, next) => {
   console.log(`New request \n\tTYPE: ${req.method} \n\t URL: ${fullUrl} \n\tParam: ${JSON.stringify(req.params)} \n\tBody: ${JSON.stringify(req.body)} \n\tCookies: ${JSON.stringify(req.cookies)}`)
   next();
 })
-//app.use(userRouter);
+app.use(userRouter);
 app.use(authRouter);
-//app.use(registerRouter);
 //app.use(classRouter);
 //app.use(chatRouter);
 //app.use(uploadRouter);
