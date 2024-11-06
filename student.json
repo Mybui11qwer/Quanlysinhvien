@@ -1,0 +1,74 @@
+[
+    {
+        "student_id": "MSSV12345",
+        "first_name": "Nguyen",
+        "last_name": "Van A",
+        "dob": "2000-05-15",
+        "gender": "male",
+        "address": {
+            "street": "123 Le Loi",
+            "city": "Hanoi",
+            "province": "Hanoi",
+            "postal_code": "100000"
+        },
+        "contact": {
+            "email": "nguyenvana@gmail.com",
+            "phone": "0123456789"
+        },
+        "password": "$2b$10$R9CZOSWWvCzAsuwZL8qxCuYsB2c.zQ7e/7b9/T1lXtnL8N2UphvS6",
+        "courses": [
+            {
+                "course_id": "COURSE001",
+                "name": "Math 101",
+                "credits": 3,
+                "grade": "A"
+            },
+            {
+                "course_id": "COURSE002",
+                "name": "Physics 101",
+                "credits": 3,
+                "grade": "B"
+            }
+        ],
+        "enrollment_date": "2019-09-01",
+        "graduation_date": null,
+        "status": "active",
+        "gpa": 3.75
+    },
+    {
+        "student_id": "MSSV12346",
+        "first_name": "Le",
+        "last_name": "Thi B",
+        "dob": "2001-08-20",
+        "gender": "female",
+        "address": {
+            "street": "456 Tran Phu",
+            "city": "Ho Chi Minh",
+            "province": "Ho Chi Minh",
+            "postal_code": "700000"
+        },
+        "contact": {
+            "email": "lethib@gmail.com",
+            "phone": "0987654321"
+        },
+        "password": "$2b$10$E2op1oKfT5a5O4hX0PfGAOLBZhOYJBgc3Wnb5tk8H95zC7.pISxG6",
+        "courses": [
+            {
+                "course_id": "COURSE001",
+                "name": "Math 101",
+                "credits": 3,
+                "grade": "A"
+            },
+            {
+                "course_id": "COURSE003",
+                "name": "Chemistry 101",
+                "credits": 3,
+                "grade": "B+"
+            }
+        ],
+        "enrollment_date": "2020-09-01",
+        "graduation_date": null,
+        "status": "active",
+        "gpa": 3.6
+    }
+]
