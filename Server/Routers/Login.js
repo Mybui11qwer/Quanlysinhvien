@@ -3,7 +3,6 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const authRouter = require("express").Router();
 const connectDB = require('./DBConnection');
-const userRouter = require('./User');
 
 const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
