@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.container-Sche {
+    width: 90%;
+    margin: 0 auto;
+}
+.top-panel {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.top-panel label {
+    margin-right: 10px;
+}
+.top-panel select {
+    margin-right: 20px;
+}
+table thead tr th{
+    background-color: #012E67;
+    color: white;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #bdccd6;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
+.class-info {
+    text-align: left;
+}
+.class-info span {
+    display: block;
+}
+.class-title {
+    color: red;
+}
+.class-teacher {
+    color: blue;
+}
+select#year {
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+select#semester{
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+select#week{
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#tiet{
+    background-color: #d4e1e9;
+    color:#4c307b;
+}
